@@ -3,11 +3,11 @@
 #include <SPI.h>
 #include <sx1272_INSAT.h>
 
-#define FC_PARAM        CH_868v3
-#define BW_PARAM        BW_125
-#define CR_PARAM        CR_5
-#define SF_PARAM        SF_12
-#define PW_PARAM        POW_14
+#define FC_PARAM        CH_868v3 //center freq
+#define BW_PARAM        BW_125 //bandwidth
+#define CR_PARAM        CR_5 //coding rate (4/5 here)
+#define SF_PARAM        SF_12 //Spreading Factor
+#define PW_PARAM        POW_14 //Power (from -1 to 14dBm)
 
 #define PREAMBLE_LONG   12
 #define MESSAGE_LONG    12
@@ -82,7 +82,7 @@ void setup() {
 
   sx1272.setCR(CR_PARAM);  
   sx1272.setSF(SF_PARAM); 
-  sx1272.setBW(BW_125); 
+  sx1272.setBW(BW_PARAM); 
 
 #ifdef DISABLE_CRC
   sx1272.setCRC_OFF();
