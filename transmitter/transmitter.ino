@@ -13,8 +13,8 @@
 #define MESSAGE_LONG    12
 #define MAX_RETRIES     3
 
-//#define EXPLICIT_HEADER //enable header explicit
-#define DISABLE_CRC       //disable CRC
+#define EXPLICIT_HEADER     //enable header explicit
+//#define DISABLE_CRC       //disable CRC
 
 #define TX_ADDR         2
 #define DST_ADDR        BROADCAST_ADDR //destination address

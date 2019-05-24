@@ -10,11 +10,10 @@
 #define PW_PARAM        POW_14 //Power (from -1 to 14dBm)
 
 #define PREAMBLE_LONG   12
-#define MESSAGE_LONG    12
 #define MAX_RETRIES     3
 
-//#define EXPLICIT_HEADER //enable header explicit
-#define DISABLE_CRC       //disable CRC
+#define EXPLICIT_HEADER     //enable header explicit
+//#define DISABLE_CRC       //disable CRC
 
 #define RX_ADDR         8
 
