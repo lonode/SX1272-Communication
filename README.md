@@ -1,6 +1,6 @@
 # SX1272-Communication
 
-These two Arduino sketches were used to measure electromagnetic attacks against the LoRa (phy) protocol.
+These two Arduino sketches were used to measure electromagnetic attacks impacts against the LoRa (phy) protocol.
 
 # LoRa Modulation parameters used during these measures
 
