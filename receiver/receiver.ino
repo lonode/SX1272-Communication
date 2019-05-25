@@ -122,7 +122,6 @@ void setup() {
 }
 
 
-#define WAIT_RX_MAX     5000 //en ms
 void loop()
 {
   if(!ConfigOK) return;
